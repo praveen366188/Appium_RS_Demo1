@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 import static io.appium.java_client.touch.LongPressOptions.longPressOptions;
 import static io.appium.java_client.touch.offset.ElementOption.element;
 
-public class Demo_3_2_Gestures_Swipe extends Base {
+public class Demo_3_3_Gestures_Swipe extends Base {
 
     public static void main(String[] args) throws MalformedURLException {
         AndroidDriver<AndroidElement> driver = capabilities();

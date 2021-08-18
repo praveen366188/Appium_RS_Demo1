@@ -28,7 +28,6 @@ public class Demo_3_2_Gestures_Long_Press extends Base {
         TouchAction t = new TouchAction(driver);
         t.longPress(longPressOptions().withElement(element(ex)).withDuration(Duration.ofSeconds(2))).release().perform();
 
-
         System.out.println(driver.findElementByXPath("//android.widget.TextView[@text='Sample action']").isDisplayed());
 
 
