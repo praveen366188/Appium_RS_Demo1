@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public class Demo_1_XPath_Id_ClassName extends Base {
 
     public static void main(String[] args) throws MalformedURLException {
-
+// In Appium we're having different type of finding element like xpath ID  class etc
         AndroidDriver<AndroidElement> driver = capabilities();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();

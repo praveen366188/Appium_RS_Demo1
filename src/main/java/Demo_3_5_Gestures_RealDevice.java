@@ -19,6 +19,7 @@ public class Demo_3_5_Gestures_RealDevice {
 
         File app = new File(new File("src"), "ApiDemos-debug.apk");
         DesiredCapabilities capabilities = new DesiredCapabilities();
+        //if you want to run in real device you just need to add that "Android device" in capabilities
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
         capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
