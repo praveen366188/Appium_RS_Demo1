@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 import static io.appium.java_client.touch.TapOptions.tapOptions;
 import static io.appium.java_client.touch.offset.ElementOption.element;
 
-public class Demo_3_5_Gestures_RealDevice {
+public class Demo_4_1_Gestures_RealDevice {
 
     public static void main(String[] args) throws MalformedURLException {
 
